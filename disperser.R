@@ -1,5 +1,6 @@
 #rm(list=ls())
 
+#installing packages
 install.packages(c("Rcpp", "downloader", "rgdal"))
 
 #installing SplitR package
