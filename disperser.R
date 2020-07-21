@@ -13,14 +13,14 @@ install.packages("USAboundariesData", repos = "http://packages.ropensci.org", ty
 ####### problem installing package (vignette building failed) ######
 
 
-devtools::install_github("lhenneman/disperseR", force = TRUE, build_vignettes = TRUE)
+devtools::install_github("lhenneman/disperseR@dev", force = TRUE, build_vignettes = TRUE)
 
 # package install without vignette
 
-devtools::install_github("lhenneman/disperseR", force = TRUE, build_vignettes = FALSE)
+devtools::install_github("lhenneman/disperseR@dev", force = TRUE, build_vignettes = FALSE)
 
 #setting R directory
-setwd("/Users/munshirasel/project/project1/disperser1")
+setwd("/Users/munshirasel/hello-world/munshimdrasel/mello/mello2")
 
 #loading libraries
 library(disperseR) # our package
@@ -39,7 +39,7 @@ library(ggrepel)
 library(fst)
 
 #creating directory for disperseR
-disperseR::create_dirs(location = "/Users/munshirasel/project/project1")
+disperseR::create_dirs(location = "/Users/munshirasel/hello-world/munshimdrasel/mello/mello2")
 
 # download data
 disperseR::get_data(data = "all",
