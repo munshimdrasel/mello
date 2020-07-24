@@ -5,6 +5,7 @@ install.packages(c("Rcpp", "downloader", "rgdal"))
 
 #installing SplitR package
 devtools::install_github("lhenneman/SplitR", force = TRUE)
+
 # devtools::install_github("lhenneman/hyspdisp", force = TRUE)
 
 
